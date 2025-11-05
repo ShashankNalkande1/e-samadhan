@@ -11,11 +11,33 @@
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
+        .logo-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #16a34a;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        @media (min-width: 768px) {
+            .logo-circle {
+                width: 150px;
+                height: 150px;
+                border: 5px solid #16a34a;
+            }
+        }
     </style>
 </head>
 <body class="bg-green-50">
 
     <div class="min-h-screen flex flex-col items-center justify-center py-3 px-4 md:py-6">
+        <!-- Company Logo -->
+        <div class="mb-4 md:mb-6">
+            <img src="324066430_3574126752873652_3601964676223565132_n.jpg" 
+                 alt="E-Waste Samadhan Logo" 
+                 class="logo-circle hover:scale-110 transition-transform duration-300">
+        </div>
+
         <!-- Top Action Buttons -->
         <div class="w-full max-w-6xl flex justify-center gap-3 md:gap-4 mb-4 md:mb-6">
             <a href="https://www.google.com/maps/place/E+Waste+Samadhan/@22.6953087,75.7877131,736m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3962ff5f1bddd549:0xdd2e5f0a898af62b!8m2!3d22.6953038!4d75.7902934!16s%2Fg%2F11tg8dm581?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 md:py-3 md:px-6 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
